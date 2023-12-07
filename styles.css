@@ -173,31 +173,7 @@ body{
   background-color: rgba(4, 9, 9, 0.1); /* Adjust the last value (0.5) to control the darkness */
 }
 
-/* CURRICULUM */
-/* li a:hover{
-  border-bottom-right-radius: 50%;
-  border-top-left-radius: 50%;
-  border: 1px solid black;
-   position: fixed;
-} */
 
-/* .relative button{
-  border-bottom-right-radius: 60%;
-  border-top-left-radius: 60%;
-  border: 2px solid black;
-} */
-/* .relative button:hover{
-  border-bottom-right-radius: 50%;
-  border-top-left-radius: 50%;
-  background: none;
-} */
-
-
-/* .block li:hover{
-  border-bottom-right-radius: 50%;
-  border-top-left-radius: 50%;
-  border: 5px solid black;  
-} */
 
 .curriculum__div{
   display:flex;
@@ -209,6 +185,20 @@ body{
 
 .curri--div--1{
   padding:0.4em 1em 0 1em;
+  max-width: 450px;
+  min-width: 350px;
+  min-height: 720px;
+
+}
+
+@media screen and (max-width: 350px){
+  .curri--div--1{
+    padding:0.4em 1em 0 1em;
+    max-width: 450px;
+    min-width: 300px;
+    min-height: 720px;
+  }
+  
 }
 
 /* TO BE THE SAME LENGTH WITH THIRD CURRI */
@@ -234,16 +224,17 @@ body{
 
 
 .div--i{
-  display:flex;
+  /* display:flex;
   justify-content: space-between;
+  */
   margin-bottom: 1em;
-  padding: 1em 0;
+  padding: 1em 0; 
   border-bottom: 1px solid var(--quaternary-color);
 }
 
 .curri--h3{
   font-weight:300;
-  font-size:1.50rem;
+  /* font-size:1.50rem; */
 }
 
 .age-color{
